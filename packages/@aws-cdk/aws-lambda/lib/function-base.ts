@@ -21,7 +21,7 @@ export interface IFunction extends IResource, ec2.IConnectable, iam.IGrantable {
   readonly functionName: string;
 
   /**
-   * The ARN fo the function.
+   * The ARN of the function.
    *
    * @attribute
    */
@@ -187,7 +187,7 @@ export abstract class FunctionBase extends Resource implements IFunction, ec2.IC
   public abstract readonly functionName: string;
 
   /**
-   * The ARN fo the function.
+   * The ARN of the function.
    */
   public abstract readonly functionArn: string;
 
